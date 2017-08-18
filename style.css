@@ -2,18 +2,65 @@
 
 body {
 	background-color: black;
-}
-nav ul li {
-	color: white;
-	border: 1px solid orange;
-	list-style: none;
-	display: inline;
+	margin: 20px auto;
 	text-align: center;
-	margin:10px 20px;
-
-
-
 }
-p {
+
+section {
+	margin: 30px 0;
+}
+
+img {
+	margin: 0;
+}
+
+#circle-cut {
+	width: 500px;
+	height: 500px;
+}
+
+.messages {
+	margin: 0 auto;
+	padding: 10px 0;
+	height: 100px;
+	width: 500px;
+	background: linear-gradient(to bottom, gray, black);
+}
+
+p, h2, h3 {
 	color: #C5C3C3;
+	margin: 0;
+	padding: 0;
+}
+
+h2, h3 {
+	margin: 10px 0;
+}
+
+.message {
+	padding: 5px 0;
+}
+
+.information-area {
+	width: 65%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid white;
+}
+
+.soundcloud-messages {
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.member-box {
+	display: flex;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.member-detail {
+	flex-direction: column;
+	text-align: left;
+	margin-left: 20px;
 }

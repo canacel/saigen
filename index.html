@@ -6,68 +6,57 @@
 	<link href="style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li>TOP</li>
-				<li>INFORMATION</li>
-				<li>SOUNDCLOUD</li>
-				<li>MEMBER</li>
-				<li>CONTACT</li>
-				<li>LINK</li>
-			</ul>
-		</nav>
-	</header>
 	<main>
-		<section class="Top">
-			<img src="saigen.png" alt="">
-			<div>
-				<p>We seek our meager music.</p>
-				<p>私たちは何者なのだろう。</p>
-				<div>
-					<ul>
-						<li class="IconLink">
-							<a href="https://twitter.com/Saigen_Harmonia" class="twitter-follow-button" data-show-count="false">Follow @Saigen_Harmonia</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-						</li>
-						<li class="IconLink">
-							<iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2Fsaigennnoharmonia&width=20&height=80&layout=standard&size=small&show_faces=true&appId" width="20" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-						</li>
-						<li class="IconLink">
-							<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fsaigen-harmonia&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe>
-						</li>
-					</ul>
+		<section id="Top">
+			<img src="saigen.png" alt="サークルカット" id="circle-cut">
+			<div class="messages">
+				<p class="message">We seek our meager music.</p>
+				<p class="message">私たちは何者なのだろう。</p>
+			</div>
+		</section>
+		<section id="Information">
+			<h2 class="Headline">INFORMATION</h2>
+			<div class="information-area">
+				<p>2017.8.15 SoundCloud に試聴曲をUPしました</p>
+			</div>
+		</section>
+		<section id="Soundcloud">
+			<h2 class="Headline">SOUNDCLOUD</h2>
+			<div class="soundcloud-messages">
+				<p class="message">私たちは過去を否定した。しかしそれはひどくこびり着いて、離れなかった。</p>
+				<p class="message">離そうとしなかった。反省なんて、簡単にできるものじゃない。</p>
+			</div>
+			<div class="soundcloud">
+				<iframe width="80%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/337854572&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+			</div>
+		</section>
+		<section id="Member">
+			<h2 class="Headline">MEMBER</h2>
+			<div class="member-box" id="CAPRa">
+				<img src="http://placehold.jp/150x150.png" alt="CAPRaのアイコン">
+				<div class="member-detail">
+					<h3>CAPRa</h3>
+					<p>采幻のハルモニア主宰。ツイッターの中の人。</p>
+					<p>Twitter: <a href="https://twitter.com/CAPRa_san/">@CAPRa_san</a></p>
+					<p>Soundcloud: <a href="https://soundcloud/aygtr-capra/">https://soundcloud/aygtr-capra</a></p>
+				</div>
+			</div>
+			<div class="member-box" id="canacel">
+				<img src="http://placehold.jp/150x150.png" alt="canacelのアイコン">
+				<div class="member-detail">
+					<h3>canacel</h3>
+					<p>サイケデリック社会人。楽団ガーネット主宰。</p>
+					<p>Twitter: <a href="https://twitter.com/canacel_neko/">@canacel_neko_</a></p>
+					<p>Soundcloud: </p>
 				</div>
 			</div>
 		</section>
-		<section class="Soundcloud">
-					<p class="Headline">SOUNDCLOUD</p>
-					<p>私たちは過去を否定した。しかしそれはひどくこびり着いて、離れなかった。</p>
-					<p>離そうとしなかった。反省なんて、簡単にできるものじゃない。</p>
-		</section>
-		<section class="Information">
-			<p class="Headline">INFORMATION</p>
-		</section>
-		<section class="Member">
-			<p class="Headline">MEMBER</p>
-			<div class="MemberCapra">
-				<p class="MenberName">CAPRa</p>
-				<p>采幻のハルモニア主宰。ツイッターの中の人。</p>
-				<p>Twitter: </p>
-				<a href="https://twitter.com/CAPRa_san/">@CAPRa_san</a>
-				<p>Soundcloud: </p><a href="https://soundcloud/aygtr-capra/">https://soundcloud/aygtr-capra</a>
-			</div>
-			<div class="MemberCanacel">
-				<p class="Membername">canacel</p>
-				<p>サイケデリック社会人。楽団ガーネット主宰。</p>
-				<p>Twitter: </p>
-				<a href="https://twitter.com/canacel_neko/">@canacel_neko_</a>
-				<p>Soundcloud: </p>
-			</div>
-		</section>
-		<section class="CONTACT">
-			<p class="Headline">CONTACT</p>
+		<section id="CONTACT">
+			<h2 class="Headline">CONTACT</h2>
 		</section>
 	</main>
-	<footer>©采幻のハルモニア 2017</footer>
+	<footer>
+		<p>©采幻のハルモニア 2017</p>
+	</footer>
 </body>
 </html>
