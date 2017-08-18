@@ -3,7 +3,17 @@
 body {
 	background-color: black;
 }
+nav ul li {
+	color: white;
+	border: 1px solid orange;
+	list-style: none;
+	display: inline;
+	text-align: center;
+	margin:10px 20px;
 
+
+
+}
 p {
 	color: #C5C3C3;
 }
